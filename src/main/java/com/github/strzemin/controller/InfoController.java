@@ -26,11 +26,15 @@ public class InfoController {
 
     @RequestMapping(method=RequestMethod.GET)
     public @ResponseBody InfoDto pingGet() {  	
-        return new InfoDto(counter.incrementAndGet(), "GET");
+        return new InfoDto(counter.incrementAndGet(), "GET 222 423523");
     }
     
     @RequestMapping(method=RequestMethod.POST)
     public @ResponseBody InfoDto pingPost() {
         return new InfoDto(counter.incrementAndGet(), "POST");
     }
+    
+    /**
+     * 
+     * Downolny kod**/
 }
