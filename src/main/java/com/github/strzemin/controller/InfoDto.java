@@ -64,3 +64,4 @@ public class InfoDto {
 	}
 	
 }
+// pozdro 600
