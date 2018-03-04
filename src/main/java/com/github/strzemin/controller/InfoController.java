@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.github.strzemin.constants.Constants;
+import com.github.strzemin.db.entity.InfoDto;
 
 /**
  * @author Maciej Strzeminski

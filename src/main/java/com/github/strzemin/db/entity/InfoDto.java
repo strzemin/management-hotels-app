@@ -1,7 +1,7 @@
 /**
  * Praca inzynierska
  */
-package com.github.strzemin.controller;
+package com.github.strzemin.db.entity;
 
 /**
  * @author Maciej Strzeminski
