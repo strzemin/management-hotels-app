@@ -17,3 +17,4 @@ import com.github.strzemin.db.entity.Room;
 public interface RoomRepository extends CrudRepository<Room, Long>  {
 
 }
+

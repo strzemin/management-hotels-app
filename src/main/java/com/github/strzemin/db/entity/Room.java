@@ -3,6 +3,9 @@
  */
 package com.github.strzemin.db.entity;
 
+
+
+
 import java.io.Serializable;
 
 import javax.persistence.Column;
@@ -10,8 +13,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
-import org.springframework.data.jpa.repository.query.Procedure;
 
 /**
  * @author Maciej Strzeminski
@@ -40,6 +41,8 @@ public class Room implements Serializable {
 	
 	@Column(name = "floor")
 	private Integer floor;
+	
+
 
 	/**
 	 * @return the id
