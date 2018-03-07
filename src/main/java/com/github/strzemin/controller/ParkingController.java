@@ -29,7 +29,7 @@ public class ParkingController {
 
 	// http://localhost:8080/rooms/find?id=2
 	@GetMapping(path = Constants.FIND_PARKING)
-	public @ResponseBody Parking findRoom(@RequestParam Long id) {
+	public @ResponseBody Parking findParking(@RequestParam Long id) {
 		return parkingRepository.findOne(id);
 	}
 
