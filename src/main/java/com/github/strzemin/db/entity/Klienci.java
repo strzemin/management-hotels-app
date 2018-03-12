@@ -1,6 +1,3 @@
-/**
- * Praca inzynierska
- */
 package com.github.strzemin.db.entity;
 
 import java.io.Serializable;
@@ -10,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+
 
 /**
  * @author Maciej Strzeminski
@@ -55,6 +53,11 @@ public class Klienci  implements Serializable {
 	/**
 	 * @return the id
 	 */
+	
+
+	
+	
+	
 	public Long getId() {
 		return id;
 	}
